@@ -10,7 +10,6 @@ const Routes: React.FC = () => {
     <>
       <Route exact component={HomeScreen} path="/" />
       <Route component={DetailsScreen} path="/:productId" />
-      <Redirect to="/" />
     </>
   );
 };
