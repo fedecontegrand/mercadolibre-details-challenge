@@ -7,11 +7,11 @@ import HomeScreen from "./screens/Home";
 
 const Routes: React.FC = () => {
   return (
-    <Switch>
+    <>
       <Route exact component={HomeScreen} path="/" />
-      <Route component={DetailsScreen} path="/:product" />
+      <Route component={DetailsScreen} path="/:productId" />
       <Redirect to="/" />
-    </Switch>
+    </>
   );
 };
 
