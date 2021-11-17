@@ -6,7 +6,7 @@ const HomeScreen: React.FC = () => {
     <div>
       <Text>{`<HomeScreen />`}</Text>
       <br />
-      <Link href="/productId">Ver página de detalle de producto</Link>
+      <Link to="/productId">Ver página de detalle de producto</Link>
     </div>
   );
 };

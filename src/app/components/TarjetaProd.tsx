@@ -38,10 +38,12 @@ function TarjetaProd({condition, price, sold_quantity, title}: Props) {
         $ {price}
       </Text>
       <Box display="flex" flexDirection="column">
-        <Button backgroundColor="blue.300" marginBottom="1rem">
+        <Button backgroundColor="blue.300" color="white" marginBottom="1rem">
           Comprar ahora
         </Button>
-        <Button backgroundColor="blue.50">Agregar al carrito</Button>
+        <Button backgroundColor="blue.50" color="blue.400">
+          Agregar al carrito
+        </Button>
       </Box>
     </Box>
   );
