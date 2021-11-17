@@ -1,18 +1,22 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Flex} from "@chakra-ui/layout";
 
-import {Product} from "../types";
-import mock from "../mock";
 import SubNav from "../../app/components/SubNav";
+import mock from "../mock";
+import {Product} from "../types";
+import ProductContainer from "../../app/components/ProductContainer";
 
-interface Props {
-  product: Product;
-}
-
-const DetailsScreen: React.FC<Props> = ({product = mock.product}) => {
+const DetailsScreen: React.FC = () => {
   return (
-    <Flex backgroundColor="#ededed" minHeight="100vh" padding="0 10rem" width="100%">
+    <Flex
+      backgroundColor="#ededed"
+      direction="column"
+      minHeight="100vh"
+      padding="0 10rem"
+      width="100%"
+    >
       <SubNav />
+      <ProductContainer />
     </Flex>
   );
 };

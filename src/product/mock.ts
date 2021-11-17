@@ -1,7 +1,7 @@
 import {Product} from "./types";
 
 export default {
-  get product(): Product {
+  getproduct() {
     return {
       id: "MLA741093357",
       site_id: "MLA",
@@ -10,7 +10,7 @@ export default {
       seller_id: 298424621,
       category_id: "MLA1166",
       official_store_id: null,
-      price: 13999,
+      price: 13.999,
       base_price: 13999,
       original_price: null,
       currency_id: "ARS",
@@ -32,34 +32,34 @@ export default {
         {
           id: "978173-MLA32582347639_102019",
           url: "http://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
-          size: "500x496",
-          max_size: "1200x1192",
-          quality: "",
+          // secure_url: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
+          // size: "500x496",
+          // max_size: "1200x1192",
+          // quality: "",
         },
         {
           id: "754004-MLA32299823528_092019",
           url: "http://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
-          size: "500x396",
-          max_size: "1200x951",
-          quality: "",
+          // secure_url: "https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
+          // size: "500x396",
+          // max_size: "1200x951",
+          // quality: "",
         },
         {
           id: "616691-MLA27900381255_082018",
           url: "http://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
-          size: "500x500",
-          max_size: "800x800",
-          quality: "",
+          // secure_url: "https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
+          // size: "500x500",
+          // max_size: "800x800",
+          // quality: "",
         },
         {
           id: "918230-MLA31424182281_072019",
           url: "http://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
-          size: "281x500",
-          max_size: "1080x1920",
-          quality: "",
+          // secure_url: "https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
+          // size: "281x500",
+          // max_size: "1080x1920",
+          // quality: "",
         },
       ],
       video_id: null,

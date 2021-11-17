@@ -14,12 +14,13 @@ export default function NavBar(): ReactElement {
   return (
     <Box
       backgroundColor={"primary.500"}
+      borderBottom="1px solid gainsboro"
       boxShadow="md"
       display="flex"
       flexDirection="column"
       justifyContent="center"
       margin={0}
-      padding="0.25rem 10rem 1rem 10rem"
+      padding="0.4rem 10rem 1rem 10rem"
     >
       <Stack
         alignItems="center"
