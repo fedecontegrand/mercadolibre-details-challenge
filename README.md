@@ -2,7 +2,7 @@
 
 # Resultado 
 <img src="https://github.com/fedecontegrand/mercadolibre-details-challenge/blob/main/Picture2.png" alt="resultado" width="100%" height="100%"/>
-<a href="https://mercadolibre-details-challenge-flax.vercel.app"><h2>Click aqui para ver resultado</h2></a>
+<h2><a href="https://mercadolibre-details-challenge-flax.vercel.app">Click aqui para ver resultado</a></h2>
 <p>La fuente no es la misma en localhost(foto) que en la pagina ya que es una fuente paga</p>
 
 # MercadoLibre challenge
