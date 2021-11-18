@@ -6,11 +6,9 @@ import NavBar from "./components/NavBar";
 
 const App: React.FC = () => {
   return (
-    <Box display="flex" flexDirection="column" gap="0">
+    <Box display="flex" flexDirection="column">
       <NavBar />
-      <Box>
-        <Routes />
-      </Box>
+      <Routes />
     </Box>
   );
 };
