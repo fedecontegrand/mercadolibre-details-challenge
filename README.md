@@ -2,8 +2,6 @@
 
 # Resultado 
 <img src="https://github.com/fedecontegrand/mercadolibre-details-challenge/blob/main/Picture2.png" alt="resultado" width="100%" height="100%"/>
-<h2><a href="https://mercadolibre-details-challenge-flax.vercel.app">Click aqui para ver resultado</a></h2>
-<p>La fuente no es la misma en localhost(foto) que en la pagina ya que es una fuente paga</p>
 
 # MercadoLibre challenge
 Debemos crear un clon de [la página de detalle de producto](https://articulo.mercadolibre.com.ar/MLA-741093357-peluche-stitch-angel-lilo-1-metro-100cm-reales-gigante-_JM#position=5&search_layout=stack&type=item&tracking_id=839ad6c1-5098-41e7-914b-75a960f45a3b) de Mercado Libre.
